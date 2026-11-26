@@ -1,0 +1,25 @@
+{
+  "experiment_name": "text_classification_glove_mean",
+  "model_type": "SimpleNN",
+  "model_params": {
+    "input_size": 100,
+    "hidden_size": 32,
+    "output_size": 2
+  },
+  "training_params": {
+    "learning_rate": 0.01,
+    "batch_size": 4,
+    "epochs": 300,
+    "weight_decay": 0.0001,
+    "early_stopping_patience": 50,
+    "device": "cpu"
+  },
+  "dataset_params": {
+    "representation": "mean-pooled glove-wiki-gigaword-100",
+    "sample_size": 5000,
+    "train_size": 3500,
+    "val_size": 750,
+    "test_size": 750
+  },
+  "seed": 42
+}
