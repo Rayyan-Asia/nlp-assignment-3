@@ -549,6 +549,6 @@
   ],
   "best_epoch": 84,
   "best_val_accuracy": 0.7946666479110718,
-  "training_time": 0.207122,
-  "timestamp": "2026-11-26T15:02:45.999693"
+  "training_time": 0.214286,
+  "timestamp": "2026-11-26T16:45:25.729369"
 }
